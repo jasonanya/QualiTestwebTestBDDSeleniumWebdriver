@@ -146,7 +146,7 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Update customer first name")]
-        [NUnit.Framework.TestCaseAttribute("Jason", "Jason1985", null)]
+        [NUnit.Framework.TestCaseAttribute("Jasonnp", "Jason1985", null)]
         public virtual void UpdateCustomerFirstName(string firstname, string password, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
